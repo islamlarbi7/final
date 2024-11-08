@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    </div>
+<div  class="calculator">
+<input  class="test" type="text "  value ="9999" >
+
+  <div   class="buttons" >    
+   
+    <button> 7 </button>
+    <button> 8</button>
+    <button> 9 </button>
+    <button  id="del"> DEL </button>
+    <button> 4 </button>
+    <button> 5 </button>
+    <button> 6 </button>
+    <button> + </button>
+    <button> 1 </button>
+    <button> 2 </button>
+    <button> 3 </button>
+    <button> - </button>
+    <button> . </button>
+    <button> 0 </button>
+    <button> / </button>
+    <button> * </button>
+    <button class="reset "> reset </button>
+    <button id="equal"> = </button>
+
+
+
+
+  </div>
+
+</div>
+
+<style>
+*{
+   
+    box-sizing: border-box;
+    
+}
+
+body {display: flex;
+justify-content: center;
+justify-items: center;
+background-color: #2a2d37;
+height: 100vh;
+margin: 50px;
+}
+
+.calculator { background-color: #3b3f51 ;
+    color :aliceblue;
+padding: 20px;
+border-radius: 15px;
+
+
+  }
+
+.test { width: 100%;
+    padding: 18px;
+    font-size: 2.5rem;
+    background-color: #191c28;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-align: right;
+    margin-bottom: 20px;
+margin-top: 15px;
+
+
+}
+   .buttons{ 
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 15px;
+   }
+   
+button{
+border:none ;
+background-color:white;
+    color:black;
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  
+   }
+.reset{ grid-column: span 2;   
+background-color: #333;
+color: aliceblue;
+}
+
+#equal {
+grid-column: span 2;
+background-color: brown;
+color: antiquewhite;
+}
+disabled {padding-bottom: 20px;
+text-align:right ;
+}
+#del{
+    background-color:#333;
+    color: aliceblue;
+}
+
+
+</style>
+
+</body>
+</html>
